@@ -34,7 +34,6 @@
         
         // 指针数组. 通过property_getName获取属性的名称
         const char *cName = property_getName(property);
-        
         NSString *name = [NSString stringWithUTF8String:cName];
         NSLog(@"name -----> %@", name);
     }
