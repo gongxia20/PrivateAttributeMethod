@@ -19,7 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+        // 属性
         [self getAllProperty:[MPVolumeView class]];
+        // 方法
         [self getAllFunction:[MPVolumeView class]];
 }
 
